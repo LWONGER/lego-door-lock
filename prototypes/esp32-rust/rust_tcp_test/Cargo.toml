@@ -1,0 +1,15 @@
+[package]
+name = "rust_tcp_client_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+log = "0.4"
+esp-idf-svc = "0.52"
+
+[build-dependencies]
+embuild = "0.33"
+
+[package.metadata.esp-idf-sys]
+esp_idf_version = "v5.1.2"
